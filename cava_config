@@ -1,0 +1,18 @@
+[general]
+bars = 40
+framerate = 60
+sleep_timer = 15
+mode = scientific
+
+[output]
+method = raw
+raw_target = /dev/stdout
+data_format = ascii
+ascii_max_range = 104
+
+[input]
+method = pulse
+
+[smoothing]
+
+noise_reduction = 15
