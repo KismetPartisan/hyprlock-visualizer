@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FILE="/tmp/cava_file"
+FILE="/dev/shm/cava_file"
 TMP="$FILE.tmp"
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )

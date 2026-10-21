@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-const FILE = "/tmp/cava_file"
+const FILE = "/dev/shm/cava_file"
 const LAYERS = 13
 
 func main() {
